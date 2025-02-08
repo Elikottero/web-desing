@@ -1,0 +1,119 @@
+body
+{
+    margin:auto;
+    max-width: 1000px;
+    background-color:#FAD7BE;
+}
+/*immagini */
+img
+{
+    max-width: 100%;
+    display: block;
+}
+header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    font-weight: bold;
+}
+header nav
+{
+    background-color: #FAA96C;
+    padding: 40px;/*dimenzione rettangolo*/
+}
+header nav li
+{
+    gap: 60px;
+    display: flex;
+    margin: auto;
+    list-style: none;/*levo la sottolineatura*/
+} 
+a
+{
+    text-decoration: none;/*levo il punto*/
+    color: #FAD7BE;
+}
+span
+{
+font-style: italic;
+}
+/*testo titolo pricipale */
+.testata
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color:#4E685F ;
+}
+/*testo titoli par. dx */
+.flex
+{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    text-align: left;
+    color:#4E685F ;
+    gap: 24px;
+}
+.uno
+{
+    object-fit: cover; 
+    height: 550px;
+    width: 100%;
+}
+.immagine
+{
+    width: 40%;
+}
+.testo
+{
+    width: 60%;
+}
+/*testo titoli par. sx */
+.reverse
+{
+    flex-direction: row-reverse;
+}
+/*testo par. */
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:left ;
+    align-items: center;
+    color:#4E685F ;
+}
+h2
+{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 50;
+}
+footer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    color:#4E685F ;
+    padding-top: 32px;
+}
+footer nav li
+{
+ gap: 40px;
+ text-align: center;
+ display: flex;
+ margin: auto;
+ list-style: none;/*levo la sottolineatura*/
+} 
+footer p
+{
+    text-decoration: none;/*levo il punto*/
+    color: #4E685F;
+}
